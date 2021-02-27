@@ -1,0 +1,20 @@
+.jumbo{
+  background: url requre ('../img/ocean.jpg') no-repeat fixed bottom;
+  background-size: cover;
+  color: #efefef;
+  height: 400px;
+  position: relative;
+  z-index: -2;
+  border: 1px solid green;
+}
+
+.overlay{
+  background-color: #000000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
